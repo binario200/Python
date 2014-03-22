@@ -1,3 +1,4 @@
+## my solution
 def digit_sum(n):
     workinNumber = n
     summatory = 0
@@ -10,3 +11,11 @@ def digit_sum(n):
         summatory += workinNumber
     
     return summatory    
+## other solution find it
+def digit_sum_other_Sol(n):
+    add = 0
+    
+    for dig in str(n):
+        add += int(dig)
+    
+    return add
